@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carte de Visite - Achraf</title>
+
+  <!-- ✅ Favicon visible uniquement dans l’onglet -->
+  <link rel="icon" type="image/png" href="audit.png" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #0077B5, #F36F21);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 30px 25px;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      color: white;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    .card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .job-title {
+      font-size: 15px;
+      margin-bottom: 20px;
+      color: #f1f1f1;
+    }
+
+    .btn {
+      background-color: #F36F21;
+      color: white;
+      padding: 12px;
+      display: block;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 20px 0;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #c14f0e;
+    }
+
+    .info {
+      display: flex;
+      align-items: flex-start;
+      margin: 15px 0;
+    }
+
+    .info svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 12px;
+      flex-shrink: 0;
+      fill: white;
+    }
+
+    .info a {
+      color: #ffffff;
+      font-size: 15px;
+      text-decoration: none;
+      line-height: 1.4;
+    }
+
+    .info a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 500px) {
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>BOUJEMAOUI Achraf</h2>
+    <div class="job-title">
+      Responsable contrôle interne & Risk management<br />
+      Maroc Assistance Internationale
+    </div>
+
+    <a class="btn" href="carte-visite-achraf.pdf" download>
+      Télécharger la carte de visite
+    </a>
+
+    <!-- Téléphone -->
+    <div class="info">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M6.6,10.8C8.2,13.8,10.6,16.2,13.6,17.8l2.2-2.2c0.2-0.2,0.5-0.3,0.8-0.2c1,0.3,2,0.5,3,0.5c0.6,0,1,0.4,1,1v3
+        c0,0.6-0.4,1-1,1C9.9,21.9,2,14,2,4.5C2,3.9,2.4,3.5,3,3.5H6c0.6,0,1,0.4,1,1c0,1,0.2,2,0.5,3c0.1,0.3,0,0.6-0.2,0.8L6.6,10.8z"/>
+      </svg>
+      <a href="tel:0663656473">0 6 63 65 64 73</a>
+    </div>
+
+    <!-- Email Pro -->
+    <div class="info">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 13.5L3 6.75V18h18V6.75L12 13.5zM12 11.25l9-6H3l9 6z"/>
+      </svg>
+      <a href="mailto:aboujemaoui@mai.cpm.ma">aboujemaoui@mai.cpm.ma</a>
+    </div>
+
+    <!-- Email Perso -->
+    <div class="info">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 13.5L3 6.75V18h18V6.75L12 13.5zM12 11.25l9-6H3l9 6z"/>
+      </svg>
+      <a href="mailto:boujemaouiachraf@gmail.com">boujemaouiachraf@gmail.com</a>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="info">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 
+        2.761 2.239 5 5 5h14c2.761 0 5-2.239 
+        5-5v-14c0-2.761-2.239-5-5-5zm-11 
+        19h-3v-10h3v10zm-1.5-11.268c-.966 
+        0-1.75-.784-1.75-1.75s.784-1.75 
+        1.75-1.75 1.75.784 
+        1.75 1.75-.784 1.75-1.75 
+        1.75zm13.5 11.268h-3v-5.604c0-3.368-4-3.113-4 
+        0v5.604h-3v-10h3v1.528c1.396-2.586 
+        7-2.777 7 2.476v5.996z"/>
+      </svg>
+      <a href="https://www.linkedin.com/in/achraf-boujemaoui-885404147/" target="_blank">
+        linkedin BOUJEMAOUI Achraf
+      </a>
+    </div>
+  </div>
+</body>
+</html>
